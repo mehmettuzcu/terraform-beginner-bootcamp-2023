@@ -201,3 +201,12 @@ If you lose this file, you lose knowning the state of your infrastructure.
 
 #### Terraform Directory
 `.terraform` directory contains binaries of terraform providers.
+
+
+### AWS S3 Bucket
+[sample](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)
+
+#### Terraform Destroy
+`teraform destroy` This will destroy resources.
+
+You can alos use the auto approve flag to skip the approve prompt eg. `terraform apply --auto-approve`
